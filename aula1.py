@@ -61,4 +61,26 @@ try:
 except ValueError:
 	print("Erro")
 
-#8 - 
+#8 - Leia uma temperatura em graus Kelvin e apresente em graus Celsius
+try:
+	temp_k = float(input("Entre uma temperatura em graus Kelvin => "))
+	print(f"A temperatura em graus Celsius é {temp_k - 273.15 : .2f} °C ")
+	print("")
+except ValueError:
+	print("Erro")
+
+#9 - Leia a temperatura em Celsius e mostra a temperatura em Kelvin
+try:
+	temp_C = float(input("Entre uma temperatura em graus Celsius => "))
+	print(f"A temperatura em graus kelvin é {temp_C + 273.15 : .2f} K ")
+	print("")
+except ValueError:
+	print("Erro")
+
+#10 - Ler velocidade em km/h e transformar para m/s 
+try:
+	vel_km = float(input("Entre uma velocidade em km/h => "))
+	print(f"A velocidade em m/s  é {vel_km/3.6: .2f} m/s ")
+	print("")
+except ValueError:
+	print("Erro")
